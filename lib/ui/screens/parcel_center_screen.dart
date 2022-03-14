@@ -16,15 +16,10 @@ class _ParcelCenterScreenState extends State<ParcelCenterScreen> {
         child: ListView(
           children: [
             Text(
-              'Send parcel',
+              'Parcel centers',
               style: Theme.of(context).textTheme.headline1,
             ),
             const SizedBox(height: 17),
-            Text(
-              'Parcel Size',
-              style: Theme.of(context).textTheme.headline3,
-            ),
-            const SizedBox(height: 11),
           ],
         ),
       ),
