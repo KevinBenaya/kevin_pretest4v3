@@ -63,4 +63,4 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/
+    - assets/locations.json
