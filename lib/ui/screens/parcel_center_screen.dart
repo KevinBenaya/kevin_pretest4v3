@@ -22,7 +22,6 @@ class _ParcelCenterScreenState extends State<ParcelCenterScreen> {
             const SizedBox(height: 29),
             SizedBox(
               height: 221,
-              child: GoogleMap(),
             ),
           ],
         ),
