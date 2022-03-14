@@ -19,7 +19,11 @@ class _ParcelCenterScreenState extends State<ParcelCenterScreen> {
               'Parcel centers',
               style: Theme.of(context).textTheme.headline1,
             ),
-            const SizedBox(height: 17),
+            const SizedBox(height: 29),
+            SizedBox(
+              height: 221,
+              child: GoogleMap(),
+            ),
           ],
         ),
       ),
