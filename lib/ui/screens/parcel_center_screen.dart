@@ -22,7 +22,7 @@ class _ParcelCenterScreenState extends State<ParcelCenterScreen> {
         const ImageConfiguration(
           size: Size(24, 24),
         ),
-        'assets/images');
+        'assets/images/icon_marker.png');
 
     setState(() {
       _markers.clear();
